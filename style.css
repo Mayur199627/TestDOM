@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    width: 100%;
+    height: 5vh;
+    background-color: black;
+    color: white;
+    padding: 1% 0%;
+    text-align: center;
+}
+.navBar{
+    width: 100%;
+    height: 2vh;
+    background-color: lime;
+    color: white;
+    padding: 1% 0%;
+    text-align: center;
+}
+main{
+    width: 100%;
+    height: 5vh;
+    text-align: center;
+    padding: 50px;
+    gap: 100px;
+}
+.listSize{
+    height: 100px;
+    width: 100px;
+}
+#list{
+    padding: 100px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 10px;
+    background-image: u;
+}
+.delete{
+    height: 40px;
+    width: 100px;
+    padding: 5px;
+}
+li img{
+    height: 100px;
+    width: 100px;
+}
+.filter{
+    text-align: center;
+}
+
+.filter button{
+    padding: 10px 30px;
+}

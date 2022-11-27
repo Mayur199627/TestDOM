@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="head"><h1>My Cart Gallery</h1></header>
+    <nav class="navBar"><h3>Add Product</h3></nav>
+    <main>
+        <form id="form">
+        <label for="name">Enter Image URL</label>
+        <input type="url" name="name" id="name" required>
+        <label for="type">Select Type</label>
+        <select name="select" id="select">
+            <option value="mobile">Mobile</option>
+            <option value="laptop">Laptop</option>
+            <option value="headphone">Headphone</option>
+        </select>
+        <input type="submit" id="submit">
+    </form>        
+    </main>
+    <div class="filter">
+        <button id="all">All</button>
+        <button id="mobileFilter">Mobile</button>
+        <button id="leptopFilter">Laptop</button>
+        <button id="headFilter">Headphone</button>
+    </div>    
+    <ul id="list">
+        <li></li>
+    </ul>
+    <script src="index.js"></script>
+</body>
+</html>
