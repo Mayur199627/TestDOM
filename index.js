@@ -16,10 +16,10 @@ form.addEventListener('submit',(event)=>{
         const del = document.createElement('button')
         del.setAttribute('class','delete');
         del.textContent = "Delete";
-        list.appendChild(del)
         itemName.src = image[0];
         itemListH.appendChild(itemName);
         list.appendChild(itemListH);
+        list.appendChild(del)
 
         del.addEventListener('click',()=>{
             itemListH.remove()
@@ -33,10 +33,10 @@ form.addEventListener('submit',(event)=>{
         const del = document.createElement('button')
         del.setAttribute('class','delete');
         del.textContent = "Delete";
-        list.appendChild(del)
         itemName.src = image[1];
         itemListL.appendChild(itemName);
         list.appendChild(itemListL);
+        list.appendChild(del)
 
         del.addEventListener('click',()=>{
             itemListL.remove()
@@ -49,16 +49,17 @@ form.addEventListener('submit',(event)=>{
         const del = document.createElement('button')
         del.setAttribute('class','delete');
         del.textContent = "Delete";
-        itemName.src = image[2];
-        list.appendChild(del)
+        itemName.src = image[2];        
         itemListM.appendChild(itemName);
         list.appendChild(itemListM);
+        list.appendChild(del)
 
         del.addEventListener('click',()=>{
             itemListM.remove()
             del.remove()
         })
         
+
     }  
 
 })
